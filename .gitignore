@@ -6,3 +6,5 @@ MovieTicketShop/.vs/MovieTicketShop/v17/.suo
 MovieTicketShop/.vs/MovieTicketShop/DesignTimeBuild/.dtbcache.v2
 MovieTicketShop/MovieTicketShop.Domain/obj/Debug/net6.0/MovieTicketShop.Domain.assets.cache
 MovieTicketShop/MovieTicketShop.Domain/obj/Debug/net6.0/MovieTicketShop.Domain.csproj.AssemblyReference.cache
+*.v2
+*.v1
