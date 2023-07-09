@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace MovieTicketShop.Domain.DomainModels
 {
-    public class Cart : BaseEntity
+    public class Order : BaseEntity
     {
-        public virtual List<CartItem> Items { get; set; } = new List<CartItem>();
-        public double TotalPrice { get; set; }
         public virtual MovieTicketShopUser Owner { get; set; }
+        public virtual List<CartItem> Items { get; set; } = new List<CartItem>();
     }
 }

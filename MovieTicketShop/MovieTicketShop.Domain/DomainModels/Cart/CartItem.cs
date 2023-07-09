@@ -13,5 +13,11 @@ namespace MovieTicketShop.Domain.DomainModels
         [Required]
         public virtual Ticket Ticket { get; set; }
         public int Quantity { get; set; }
+
+        public CartItem(Ticket ticket, int quantity)
+        {
+            this.Ticket = ticket;
+            this.Quantity = quantity;
+        }
     }
 }

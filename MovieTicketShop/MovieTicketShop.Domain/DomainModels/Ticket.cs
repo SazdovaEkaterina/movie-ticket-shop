@@ -18,5 +18,14 @@ namespace MovieTicketShop.Domain.DomainModels
         public virtual Movie Movie { get; set; }
         [Required]
         public double Price { get; set; }
+
+        public Ticket(DateTime dateTime, int stock, Movie movie, double price)
+        {
+            DateTime = dateTime;
+            Stock = stock;
+            Movie = movie;
+            Price = price;
+        }
+
     }
 }
